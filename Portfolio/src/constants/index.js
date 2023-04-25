@@ -19,10 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
+    randomQuoteGEn,
+    dataPagination,
     tripguide,
     threejs,
+    veriShare,
   } from "../assets";
   
   export const navLinks = [
@@ -118,7 +119,7 @@ import {
     {
       title: "Junior Software Developer",
       company_name: "Verishare Software",
-      icon: starbucks,
+      icon: veriShare,
       iconBg: "#383E56",
       date: "Feb 2022 - Current",
       points: [
@@ -131,46 +132,7 @@ import {
         "Pushing updates to production branches via Sourcetree",
         "Distribution of updated versions of company software."
       ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
@@ -202,46 +164,48 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Random Quote Generator",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Website that generates random quotes from famous individuals.",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: randomQuoteGEn,
+      source_code_link: "https://github.com/Dawid2803/Techdegree-project---Random-Quote-Generator",
+      live_link: "https://dawid2803.github.io/Techdegree-project---Random-Quote-Generator/",
     },
     {
-      name: "Job IT",
+      name: "Student Card Generator",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "a Website that takes user information and forms a student card per student, also uses pagination to only display 9 students per page(or less depending on the total amount of students",
       tags: [
         {
-          name: "react",
+          name: "JavaScript",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "HTML",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: dataPagination,
+      source_code_link: "https://github.com/Dawid2803/data-pagination-and-filtering",
+      live_link: "https://dawid2803.github.io/data-pagination-and-filtering/",
     },
     {
       name: "Trip Guide",

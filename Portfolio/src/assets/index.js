@@ -25,8 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import veriShare from "./company/VeriShare.png";
 
 import carrent from "./carrent.png";
+import randomQuoteGEn from "./1200_550px_random_quote_generator_2.png";
+import dataPagination from "./data_pagination_1200_550px_1.png"
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -56,7 +59,8 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  randomQuoteGEn,
+  dataPagination,
   tripguide,
+  veriShare,
 };
